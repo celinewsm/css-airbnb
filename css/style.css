@@ -1,3 +1,88 @@
-h1 {
-  color: salmon;
+body {
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #484848;
+  background-color: #edefec;
+}
+
+h1 , h2 {
+  color: white;
+}
+
+h3 {
+  font-size: 24pt;
+  margin-bottom: 0.2em;
+}
+
+
+p {
+  margin-top: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.section {
+    text-align: center;
+}
+
+.photo {
+  height: 310px;
+  width: 295px;
+  background-color: red;
+  display: inline-block;
+  margin: 0.5em;
+  background-position: center;
+}
+
+.photo h2 {
+  vertical-align: middle;
+  text-align: center;
+  line-height: 280px;
+}
+
+.sf {
+  background-image: url("../img/san-francisco.jpg");
+}
+
+.ny {
+  background-image: url("../img/new-york.jpg");
+}
+
+.ldn {
+  background-image: url("../img/london.jpg");
+}
+
+.napa {
+  background-image: url("../img/napa.jpg");
+}
+
+.sonoma {
+  background-image: url("../img/sonoma.jpg");
+}
+
+.sf2 {
+  background-image: url("../img/san-francisco-2.jpg");
+}
+
+button {
+  margin-top:2em;
+  margin-bottom:2em;
+  width: 300px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: #484848;
+  border: 1px solid #c4c4c4;
+  background: white;
+  border-radius: 2px;
+  border-radius: 2px;
+  border-radius: -3px;
+  cursor: pointer;
+  font-size: 11pt;
+  font-weight: bold;
+}
+
+button:active {
+  background-color: transparent;
 }
